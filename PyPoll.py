@@ -65,6 +65,7 @@ with open(file_to_load) as election_data:
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------------\n")
     print(winning_candidate_summary)
+    print("got error")
 
 
    
