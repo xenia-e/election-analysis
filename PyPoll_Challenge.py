@@ -111,7 +111,7 @@ with open(file_to_save, "w") as txt_file:
         if (c_votes > county_winning_count) and (county_votes_percentage > county_winning_percentage):
             county_winning_count = c_votes
             county_winning_percentage = county_votes_percentage
-            county_winning = county////
+            county_winning = county
 
     # 7: Print the county with the largest turnout to the terminal.
     county_winning_summary = (
